@@ -26,7 +26,8 @@ Best Test Accuracy: 98.47
 - Only Random rotation is added as Augmentation.
 - In the architecture GAP size is 7 x 7. That might the reason of low accuracy as well.
 
-
+### Receptive Field
+![RF](./images/model_1_RF.png)
 
   
 
@@ -52,7 +53,8 @@ Best Test Accuracy: 99.22
 - The network has been added with many layers, and Batch Norm, but it could not achieve more than 99.22% accuracy in 15 epochs. So model is not converging quickly.
 - Dropout value might be high for this network.
 
-
+### Receptive Field
+![RF](./images/model_2_RF.png)
 
   
 ## Iteration 3
@@ -77,3 +79,6 @@ Best Test Accuracy: 99.50 (8th epoch)
 - Achieved 99.5% accuracy in 8th epoch and consistently more than 99.4% in 15 epochs.
 - Achieved faster convergence with Data Augmentation and StepLR (Accuracy in 2nd epoch itself is more than 99%)
 - Model is neither under-fitting or over-fitting. Started with under-fitting because of Augmentation, and picked up to more than 99% training accuracy.
+
+### Receptive Field
+![RF](./images/model_3_RF.png)
