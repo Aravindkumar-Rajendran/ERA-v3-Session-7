@@ -4,3 +4,4 @@ numpy
 albumentations
 tqdm
 torchsummary
+matplotlib
